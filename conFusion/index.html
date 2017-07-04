@@ -58,7 +58,12 @@
 
                 </div>
 
-                <div id="loginModal" class="modal fade" role="dialog">
+               
+
+            </div>
+        </nav>   
+        
+         <div id="loginModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
@@ -69,22 +74,27 @@
                             <div class="modal-body">
 
                                 <form class="form-inline">
-                                    <div class="form-inline">
-                                        <input type="text" class="form-control" placeholder="Email">
-                                        <input type="text" class="form-control" placeholder="Password">
-                                        <input type="checkbox" class="form-control" aria-label="Remember Me">
-                                        <span Style="color:white">Remember Me</span>
-                                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                                    <div class="form-group">
+                                        <input id="email" type="text" class="form-control input-sm" placeholder="Email">
                                     </div>
-                                    <button type="submit" class="btn btn-info">Sign In</button>
+                                    <div class="form-group">
+                                        <input id="password" type="text" class="form-control input-sm" placeholder="Password">
+                                    </div>
+                                    <div class="checkbox">
+                                        <label >
+                                            <input type="checkbox" class="form-control" aria-label="Remember Me">
+                                            Remember Me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-info btn-sm">Sign In</button>
+                                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
                                 </form>
 
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>    
+        
         <header class="jumbotron">
 
             <!-- Main component for a primary marketing message or call to action -->
